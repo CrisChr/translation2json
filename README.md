@@ -34,10 +34,24 @@ DEEPSEEK_API_KEY=your-api-key-here
   ```javascript
   const langNames = {
     'zh': 'Simplified Chinese',
-    'jp': 'Japanese',
+    'en': 'English',
     'your-code': 'Your Language Name'
   };
   ```
+
+3. Create scripts folder in your project, add copy the file to the folder
+
+4. Add a new command line in your project package.json
+```bash
+ "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "i18n": "node scripts/generate-translations.js" // it's the new commad line to genereate multi languages
+  },
+
+```
 
 ## Usage
 

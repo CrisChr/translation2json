@@ -64,16 +64,7 @@ async function translateText(text, langCode) {
 
   const langNames = {
     'zh': 'Simplified Chinese',
-    'jp': 'Japanese',
-    'fr': 'French',
-    'es': 'Spanish',
-    'de': 'German',
-    'it': 'Italian',
-    'ko': 'Korean',
-    'ru': 'Russian',
-    'pt': 'Portuguese',
-    'ar': 'Arabic',
-    'tr': 'Turkish',
+    'en': 'English',
   };
 
   const targetLang = langNames[langCode] || langCode;
